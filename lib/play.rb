@@ -44,3 +44,4 @@ def play(board)
     puts "Thanks for playing!"
   end
   return board
+end

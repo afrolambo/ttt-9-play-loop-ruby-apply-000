@@ -38,9 +38,10 @@ end
 # Define your play method below
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def play(board)
-  turn(board)
-  until board = ["X","X","X","X","X","X","X","X","X"]
+  if board != ["X","X","X","X","X","X","X","X","X"]
     turn(board)
+  else 
+    puts 
+    "Thanks for playing!"
   end
-  puts "Thank You For Playing!"
 end

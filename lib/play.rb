@@ -39,7 +39,7 @@ end
 def play(board)
   turn(board)
   until board = ["X","X","X","X","X","X","X","X","X"]
-    turn(board)
+    turn(board) += 1
   end
   puts "Thank You For Playing!"
 end

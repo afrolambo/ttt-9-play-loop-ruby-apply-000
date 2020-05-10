@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   turn(board)
-  while valid_move?(board, index)
+  until board = ["X","X","X","X","X","X","X","X","X"]
     turn(board)
   end
   puts "Thank You For Playing!"

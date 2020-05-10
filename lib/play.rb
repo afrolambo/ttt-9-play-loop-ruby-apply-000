@@ -42,4 +42,5 @@ def play(board)
     turn(board)
   else
     break 
+  end
 end

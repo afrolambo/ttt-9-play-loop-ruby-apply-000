@@ -36,3 +36,12 @@ def turn(board)
 end
 
 # Define your play method below
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def play(board)
+  until board == ["X","X","X","X","X","X","X","X","X"]
+    turn(board)
+  end
+    return board
+    puts "Thanks for playing!"
+
+end

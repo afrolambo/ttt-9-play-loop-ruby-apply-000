@@ -40,6 +40,6 @@ def play(board)
   turn(board)
   while valid_move?(board, index)
     turn(board) += 1
-
   end
+  puts "Thank You For Playing"
 end

@@ -41,7 +41,6 @@ def play(board)
   if board != ["X","X","X","X","X","X","X","X","X"]
     turn(board)
   else
-    puts
-    "Thanks for playing!"
+    puts "Thanks for playing!"
   end
   return board

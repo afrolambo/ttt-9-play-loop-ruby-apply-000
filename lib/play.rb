@@ -41,6 +41,5 @@ def play(board)
   while valid_move?(board, index)
   8.times turn(board) do
   end
-  end
   puts "Thank You For Playing"
 end

@@ -40,8 +40,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def play(board)
   if board != ["X","X","X","X","X","X","X","X","X"]
     turn(board)
-  else 
-    puts 
+  else
+    puts
     "Thanks for playing!"
   end
 end

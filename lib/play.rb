@@ -37,9 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board) += 1
+  turn(board)
   while valid_move?(board, index)
-    turn(board)
+  8.times turn(board) do
+  end
   end
   puts "Thank You For Playing"
 end

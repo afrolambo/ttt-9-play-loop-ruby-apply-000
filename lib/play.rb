@@ -39,8 +39,7 @@ end
 def play(board)
   turn(board)
   while valid_move?(board, index)
-    turn(board)
-  else
-    break
+    turn(board) += 1
+
   end
 end
